@@ -14,6 +14,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { Card, CardContent } from "@mui/material";
+
 export default function Dashboard() {
   const { products } = useContext(productsContext);
   const { orders } = useContext(ordersContext);
